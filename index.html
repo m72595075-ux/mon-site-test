@@ -3,9 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <title>Mon premier site</title>
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=TON_ID_ANALYTICS"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'TON_ID_ANALYTICS');
+  </script>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 100px;
+      background-color: #f0f0f0;
+    }
+    h1 {
+      color: #333;
+      font-size: 48px;
+    }
+    p {
+      color: #666;
+      font-size: 24px;
+    }
+  </style>
+
 </head>
 <body>
   <h1>Hello World</h1>
-  <p>Bienvenue sur mon site !</p>
+  <p>Bienvenue sur mon premier site publié !</p>
 </body>
 </html>
